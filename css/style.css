@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    background: url("../img/travel.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/* Menu */
+
+.menu-bar {
+    height: 100%;
+    padding-top: 15%;
+
+    text-align: center;
+
+    background-color: black;
+    opacity: 0.2;
+}
+
+.menu-button {
+    color: white;
+    font-size: 150%;
+}
+
+/* Search */
+
+.search-bar {
+    height: 15%;
+    padding: 3% 0% 0% 0%;
+}
+
+.inner-search-bar {
+    width: 300px;
+}
+
+.search-field {
+    width: 250px;
+
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #CCC;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 2% 0% 2% 2%;
+}
+
+.search-icon {
+    color: white;
+    font-size: 30px;
+    float: right;
+}
+
+/* Travel */
+
+.travel-icon {
+    float: left;
+    width: 160px;
+}
+
+.travel-bar {
+    height: 45%;
+
+    text-align: center;
+    color: white;
+}
+
+.travel-title {
+    font-size: 70px;
+}
+
+.travel-sub-title {
+    font-size: 30px;
+}
+
+/* Registration */
+
+.registration-bar {
+    height: 40%;
+    padding: 10%;
+
+    color: #fff;
+}
+
+.registration-field {
+    width: 100%;
+
+    margin-bottom: 5%;
+    padding: 5px;
+
+    background-color: transparent;
+
+    border: 2px solid #CCC;
+    color: #ffffff;
+}
+
+.reg-left-half {
+    width: 48%;
+    margin-right: 4%;
+    float: left;
+}
+
+.reg-right-half {
+    width: 48%;
+    float: right;
+}
+
+.go-button {
+    text-align: center;
+}
+
+/* Utils */
+
+.white, .white a {
+    color: #fff;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
